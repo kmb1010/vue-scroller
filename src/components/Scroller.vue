@@ -42,7 +42,6 @@
   </div>
 </template>
 <style lang="css" scoped>
-
   ._v-container {
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 
@@ -77,19 +76,19 @@
 
   ._v-container > ._v-content > .pull-to-refresh-layer {
     width: 100%;
-    height: 60px;
-    margin-top: -60px;
+    height:1.6rem;
+    margin-top: -1.6rem;
     text-align: center;
-    font-size: 16px;
+    font-size:0.4266rem;
     color: #AAA;
   }
 
   ._v-container > ._v-content > .loading-layer {
     width: 100%;
-    height: 60px;
+    height:1.6rem;
     text-align: center;
-    font-size: 16px;
-    line-height: 60px;
+    font-size: 0.4266rem;
+    line-height: 1.6rem;
     color: #AAA;
     position: relative;
   }
@@ -126,9 +125,9 @@
 
   ._v-container > ._v-content > .pull-to-refresh-layer .spinner-holder .arrow,
   ._v-container > ._v-content > .loading-layer .spinner-holder .arrow {
-    width: 20px;
-    height: 20px;
-    margin: 8px auto 0 auto;
+    width:0.5333rem;
+    height: 0.5333rem;
+    margin:0.2133rem auto 0 auto;
 
     -webkit-transform: translate3d(0,0,0) rotate(0deg);
     transform: translate3d(0,0,0) rotate(0deg);
@@ -141,16 +140,16 @@
   ._v-container > ._v-content > .loading-layer .spinner-holder .text {
     display: block;
     margin: 0 auto;
-    font-size: 14px;
-    line-height: 20px;
+    font-size:0.3733rem;
+    line-height:0.5333rem;
     color: #aaa;
   }
 
   ._v-container > ._v-content > .pull-to-refresh-layer .spinner-holder .spinner,
   ._v-container > ._v-content > .loading-layer .spinner-holder .spinner {
-    margin-top: 14px;
-    width: 32px;
-    height: 32px;
+    margin-top:0.3733rem;
+    width:0.8533rem;
+    height: 0.8533rem;
     fill: #444;
     stroke: #69717d;
   }
@@ -159,6 +158,7 @@
     -webkit-transform: translate3d(0,0,0) rotate(180deg);
     transform: translate3d(0,0,0) rotate(180deg);
   }
+  
 </style>
 <script>
   import Scroller from '../module/core'
